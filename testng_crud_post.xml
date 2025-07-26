@@ -3,10 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="APIAutomationFrameworkATB7x">
         <classes>
-            <class name="com.thetestingacademy.tests.crud.testCreateBookingPOST">
-                <methods>
-                    <include name="testVerifyCreateBookingPOST01"/>
-                </methods>
+            <class name="com.thetestingacademy.tests.crud.testCreateBookingTCPOST">
             </class>
         </classes>
     </test>

@@ -2,7 +2,7 @@ package com.thetestingacademy.asserts;
 
 import io.restassured.response.Response;
 
-import static org.testng.AssertJUnit.assertEquals;
+import static org.testng.Assert.assertEquals;
 
 public class AssertActions {
     // Common Assertions - which can be reused.
@@ -14,11 +14,11 @@ public class AssertActions {
 
     public void verifyResponseBody(int actual, int expected, String description)
     {
-        //assertEquals(actual, expected, description);
+        assertEquals(actual, expected, description);
     }
 
     public void verifyStatusCode(Response response, Integer expected)
     {
-        //assertEquals(response.getStatusCode(),expected);
+        assertEquals(response.getStatusCode(),expected);
     }
 }

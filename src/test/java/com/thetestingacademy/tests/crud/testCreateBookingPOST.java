@@ -1,5 +1,6 @@
 package com.thetestingacademy.tests.crud;
 
+import com.thetestingacademy.base.BaseTest;
 import io.qameta.allure.*;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -13,7 +14,9 @@ public class testCreateBookingPOST {
     @Severity(SeverityLevel.BLOCKER)
     @Description("Verify that POST request is working fine.")
     @Test
-    public void testVerifyCreateBookingPOST01() {
+    public void testVerifyCreateBookingPOST01()
+    {
+
         Assert.assertEquals(true, true);
     }
 }
